@@ -1,7 +1,7 @@
 function data()
 {
-read -p "Enter the username of your : " username
-read -p "Enter the password of the website : " password
+read -p "Enter your username : " username
+read -p "Enter your password : " password
 }
 data
 if [[ $username == "kaushal16" && $password == "passKsp" ]]
